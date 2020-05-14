@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet');
+.app{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-image: linear-gradient(to right,#2DB5CBCC , #FDFDFDC9);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 657px;
+}
+
+html,body{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.contact{
+    grid-column: 1/span 2;
+}

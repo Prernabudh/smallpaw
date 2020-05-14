@@ -1,0 +1,19 @@
+.input-submit{
+    border: none;
+    width: 273px;
+    height: 31px;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 8px;
+}
+
+button {
+    margin-left: -60px;
+    width:106px;
+    height:39px;
+    padding: 4px;
+    background: #FF8800 0% 0% no-repeat padding-box;
+border: 1px solid #FFFFFF;
+border-radius: 0px 10px 10px 0px;
+color:#FFFFFF;
+}
