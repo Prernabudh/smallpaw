@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet');
 .first-div{
     margin-top: 70px;
+    margin-left: 30px;
 }
 .logo{
-    width: 75px;
-height: 101px;
-margin-right: 15px;
-margin-bottom: 35px;
+    width: 85px;
+    height: 101px;
+    margin-right: 15px;
+    margin-bottom: 35px;
 }
 .title{
     position: relative;
@@ -29,7 +30,7 @@ margin-bottom: 35px;
 }
 .countdown-timer{
     margin-bottom: 50px;
-    margin-left: 125px;
+    margin-left: 127px;
 }
 #demo{
     font-size: 60px;

@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet');
 .footer-text{
-    margin-top: 60px;
+    margin-top: 70px;
     color: #463B65;
     font-weight: bolder;
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
+    text-align: center;
 }
 .linkedin{
     margin-top: -2px;

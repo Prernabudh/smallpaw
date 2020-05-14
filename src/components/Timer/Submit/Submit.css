@@ -12,7 +12,7 @@ button {
     height:39px;
     padding: 4px;
     background: #FF8800 0% 0% no-repeat padding-box;
-border: 1px solid #FFFFFF;
-border-radius: 0px 10px 10px 0px;
-color:#FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 0px 10px 10px 0px;
+    color:#FFFFFF;
 }

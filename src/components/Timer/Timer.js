@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Timer.css"
 import Submit from "./Submit/Submit"
+import logo from "./images/Logo.png"
+import title from "./images/title.png"
 
 var countDownDate = new Date("June 15, 2020 15:37:25").getTime();
 var x = setInterval(function() {
@@ -38,8 +40,8 @@ const Timer = () =>{
       <center>
         <div className="first-div">
             <div className="brand">
-                <img src="./Logo.png" className="logo"></img>
-                <img src="./title.png" className="title"></img>
+                <img src={logo} className="logo"></img>
+                <img src={title} className="title"></img>
             </div>
             <div className="countdown-timer">
                 <div id="demo">

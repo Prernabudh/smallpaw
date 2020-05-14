@@ -1,13 +1,17 @@
 import React from "react"
 import "./Footer.css"
+import linkedin from "./images/linkedin.png"
+import insta from "./images/insta.png"
 
 const Footer =() =>{
     return(
-        <center>
+        <div>
             <p className="footer-text">Follow us on</p>
-            <img src="./linkedin.png" className="linkedin"></img>
-            <img src="./insta.png" className="insta"></img>
-        </center>
+            <center>
+                <img src={linkedin} className="linkedin"></img>
+                <img src={insta} className="insta"></img>
+            </center>
+        </div>
     )
 }
 
