@@ -15,11 +15,19 @@ var now = new Date().getTime();
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   document.getElementById("day").innerHTML = days;
-  document.getElementById("hour").innerHTML = hours;
-  document.getElementById("min").innerHTML = minutes;
-  document.getElementById("sec").innerHTML = seconds;
+  if(hours<10)
+    document.getElementById("hour").innerHTML = "0"+hours;
+  else
+    document.getElementById("hour").innerHTML = hours;
+  if(minutes<10)
+    document.getElementById("min").innerHTML = "0"+minutes;
+  else
+    document.getElementById("min").innerHTML = minutes;
+  if(seconds<10)
+    document.getElementById("sec").innerHTML = "0"+seconds;
+  else
+    document.getElementById("sec").innerHTML = seconds;
     
-  // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "EXPIRED";
@@ -27,6 +35,7 @@ var now = new Date().getTime();
 }, 1000);
 const Timer = () =>{
     return(
+      <center>
         <div className="first-div">
             <div className="brand">
                 <img src="./Logo.png" className="logo"></img>
@@ -45,9 +54,10 @@ const Timer = () =>{
                 </div>
             </div>
             <div className="caption">COMING SOON!</div>
-            <p>Join our community for pawsome experience</p>
+            <p className="caption2">Join our community for pawsome experience</p>
             <Submit/>
         </div>
+      </center>
     )
 }
 

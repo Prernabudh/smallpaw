@@ -3,11 +3,11 @@ import "./Footer.css"
 
 const Footer =() =>{
     return(
-        <div>
+        <center>
             <p className="footer-text">Follow us on</p>
-            <img src="./linkedin.png" className="insta"></img>
-            <img src="./insta.png"></img>
-        </div>
+            <img src="./linkedin.png" className="linkedin"></img>
+            <img src="./insta.png" className="insta"></img>
+        </center>
     )
 }
 

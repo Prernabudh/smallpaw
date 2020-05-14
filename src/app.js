@@ -7,8 +7,8 @@ import Footer from "./components/Footer/Footer"
 const App = () =>{
     return(
         <div className="app">
-            <div><Timer/></div>
-            <div><Image/></div>
+            <Timer/>
+            <Image/>
             <div class="contact"><Footer/></div>
         </div>
     )
