@@ -8,8 +8,8 @@ const App = () =>{
     return(
         <div className="app">
             <Timer/>
-            <Image/>
-            <div class="contact"><Footer/></div>
+            <div className="person-img"><Image/></div>
+            <div className="contact"><Footer/></div>
         </div>
     )
 }

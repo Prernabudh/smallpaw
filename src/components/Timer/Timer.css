@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet');
 .first-div{
     margin-top: 70px;
-    margin-left: 30px;
 }
 .logo{
     width: 85px;
@@ -29,21 +28,43 @@
     font-size: 18px;
 }
 .countdown-timer{
-    margin-bottom: 50px;
-    margin-left: 127px;
+    position: relative;
+    margin-bottom: 140px;
 }
 #demo{
     font-size: 60px;
     font-weight: bold;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 100px 100px 100px 100px;
     grid-template-columns: 100px 100px 100px 100px;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0px;
     color: #64396F;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
 }
 
 .times{
     font-size: 22px;
     font-weight: normal;
     font-family: 'Poppins', sans-serif; ;
+}
+
+.img-bg{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .img-bg{
+        top: 20%;
+        opacity: 0.8;}
+    .caption{
+        color: #64396F;
+    }
 }

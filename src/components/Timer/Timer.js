@@ -3,6 +3,7 @@ import "./Timer.css"
 import Submit from "./Submit/Submit"
 import logo from "./images/Logo.png"
 import title from "./images/title.png"
+import Image from "../Image/Image"
 
 var countDownDate = new Date("June 15, 2020 15:37:25").getTime();
 var x = setInterval(function() {
@@ -39,6 +40,7 @@ const Timer = () =>{
     return(
       <center>
         <div className="first-div">
+            <div className="img-bg"><Image/></div>
             <div className="brand">
                 <img src={logo} className="logo"></img>
                 <img src={title} className="title"></img>
